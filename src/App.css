@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form {
+  height: 882px;
+  width: 100%;
+  object-fit: cover;
+  margin: 0px auto;
+  background-image: url("./images/image.jpg");
+}
+
+h2 {
+  font-size: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  height: 20px;
+}
+
+.search {
+  display: flex;
+  text-align: right;
+  justify-content: right;
+  margin-right: 20px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.search-info {
+  color: white;
+}
+.search-bar {
+  border-radius: 5px;
+  margin-right: 0px;
+}
+input {
+  border-radius: 10px;
+  height: 20px;
+}
+.btn-search {
+  border-radius: 13px;
+  padding: 5px;
+  margin-top: 30px;
+  border: none;
+  margin-left: -18px;
+  background-color: #d4a130;
+  color: white;
+  width: 111px;
+  height: 30px;
+}
+
+.btn-search:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.form-row {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  color: #000000cc;
+  gap: 55px;
+}
+
+.form-message {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  color: black;
+  margin-top: 20px;
+  font-size: 20px;
+}
+label {
+  font-size: 20px;
+}
+
+.form-image {
+  display: flex;
+  margin-left: 16px;
+  justify-content: center;
+  color: #000000cc;
+  margin-top: 20px;
+  margin-left: -59px;
+}
+.label {
+  margin-right: 10px;
+}
+#imageUrl {
+  width: 240px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 111px;
+  height: 38px;
+  border-radius: 10px;
+  margin-top: 30px;
+  background-color: #d4a130;
+  color: white;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+textarea {
+  border-radius: 10px;
+}
+
+footer {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bold;
+}
